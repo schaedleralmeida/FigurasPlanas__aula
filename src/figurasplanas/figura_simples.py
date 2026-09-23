@@ -43,4 +43,5 @@ class Circulo(FiguraPlana):
     """
 
     def __init__(self, r:float) -> None:
+        A = pi * r**2
         pass

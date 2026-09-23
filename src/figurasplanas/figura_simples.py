@@ -34,3 +34,14 @@ class Retangulo(FiguraPlana):
         txt = f"Retângulo: b= {self.b}, h= {self.h} \n"
         txt += super().__str__()
         return txt
+
+
+class Circulo(FiguraPlana):
+    """
+    Representa um retângulo de base b altura h.
+    Iniciado com canto superior direito nas coordenadas (b/2, h/2).    
+    """
+
+    def __init__(self, r:float) -> None:
+        A = pi * r**2
+        pass

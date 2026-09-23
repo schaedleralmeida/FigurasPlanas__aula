@@ -1,5 +1,8 @@
 from math import pi, sqrt, sin, cos, atan
 
+"""
+Esse é o módulo básico para o pacote FigurasPlanas
+"""
 
 class FiguraPlana:
     """Representa uma figura plana genérica por suas propriedades geométricas.

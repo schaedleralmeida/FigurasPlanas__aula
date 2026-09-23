@@ -5,7 +5,7 @@ from .figuraplana import FiguraPlana
 Esse módulo implementa figuras simples criadas a partir de 
 dimensões características.
 As figuras implementadas são
-- Retangulo
+-Retangulo
 
 """
 

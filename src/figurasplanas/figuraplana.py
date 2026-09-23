@@ -3,6 +3,7 @@ from math import pi, sqrt, sin, cos, atan
 """
 Esse é o módulo básico para o pacote FigurasPlanas
 bla bla bla bla bla .... vamos lá
+um pouco mais de blablabla numca é demais!
 """
 
 class FiguraPlana:

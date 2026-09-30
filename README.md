@@ -10,7 +10,7 @@ Calcula as seguintes grandezas:
 | Símbolo | Grandeza |
 | --- | --- |
 | `A` | área |
-| `xc`, `yc` | coordenadas do centroide |
+| `xc`, `yc` | coordenadas do centroide pipipi |
 | `Ix`, `Iy` | momentos de inércia em relação aos eixos x e y |
 | `Ixy` | produto de inércia |
 | `Io` | momento polar em relação à origem |

@@ -53,3 +53,11 @@ class Circulo(FiguraPlana):
         Ixy = 0.0
 
         super().__init__(A, Ix, Iy, xc, yc, Ixy)
+
+    def __repr__(self) -> str:
+        return f"Circulo(r={self.r})"
+
+    def __str__(self) -> str:
+        txt = f"Círculo: r= {self.r}\n"
+        txt += super().__str__()
+        return txt

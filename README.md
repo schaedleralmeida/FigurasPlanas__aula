@@ -51,11 +51,6 @@ Seus principais métodos são:
 As seguintes classes especializadas criam figuras a partir de suas dimensões:
 
 - `Retangulo(b, h)`: retângulo de base `b` e altura `h`, centrado na origem.
-- `Circulo(r)`: círculo de raio `r`, com centro na origem.
-- `TrianguloRetangulo(b, h)`: triângulo retângulo de base `b` e altura `h`,
-	com o vértice do ângulo reto na origem.
-- `SemiCirculo(r)`: semicírculo de raio `r`.
-- `QuartoCirculo(r)`: quarto de círculo de raio `r`.
 
 ### Figuras Compostas
 

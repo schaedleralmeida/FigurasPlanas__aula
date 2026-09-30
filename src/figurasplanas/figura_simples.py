@@ -45,3 +45,13 @@ class Circulo(FiguraPlana):
     def __init__(self, r:float) -> None:
         A = pi * r**2
         pass
+
+class TrianguloRetangulo(FiguraPlana):
+    """
+    Representa um triângulo retângulo de base b altura h.
+    Iniciado com canto superior direito nas coordenadas (b/2, h/2).    
+    """
+
+    def __init__(self, b:float, h:float) -> None:
+        A = (b * h) / 2
+        pass

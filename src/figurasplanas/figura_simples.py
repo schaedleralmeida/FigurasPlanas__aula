@@ -49,7 +49,7 @@ class Circulo(FiguraPlana):
 class SemiCirculo(FiguraPlana):
     """
     Representa um semicírculo de raio r.
-    Iniciado com origem no centro do semicírculo e ângulo de 0 a pi.
+    Iniciado com origem no centro do semicírculo e ângulo de 0 a pi. Vamos implementar mais fórmulas.
     """
 
     def __init__(self, r:float) -> None:
@@ -71,3 +71,4 @@ class SemiCirculo(FiguraPlana):
         txt = f"Semicírculo: r= {self.r} \n"
         txt += super().__str__()
         return txt
+    

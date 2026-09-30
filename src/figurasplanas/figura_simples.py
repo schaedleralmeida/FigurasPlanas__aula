@@ -68,4 +68,5 @@ class TrianguloRetangulo(FiguraPlana):
         txt = f"Triângulo Retângulo: b= {self.b}, h= {self.h} \n"
         txt += super().__str__()
         return txt
-        
+
+#qualquer coisa

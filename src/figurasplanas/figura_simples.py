@@ -38,10 +38,18 @@ class Retangulo(FiguraPlana):
 
 class Circulo(FiguraPlana):
     """
-    Representa um retângulo de base b altura h.
-    Iniciado com canto superior direito nas coordenadas (b/2, h/2).    
+    Representa um círculo de raio r.
+    Iniciado com centro nas coordenadas (0,0).
     """
 
     def __init__(self, r:float) -> None:
+
+        self.r = r
         A = pi * r**2
-        pass
+        Ix = (pi * r**4) / 4
+        Iy = (pi * r**4) / 4
+        xc = 0.0
+        yc = 0.0
+        Ixy = 0.0
+
+        super().__init__(A, Ix, Iy, xc, yc, Ixy)

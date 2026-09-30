@@ -52,7 +52,6 @@ As seguintes classes especializadas criam figuras a partir de suas dimensões:
 
 - `Retangulo(b, h)`: retângulo de base `b` e altura `h`, centrado na origem.
 
-
 ### Figuras Compostas
 
 #### `FiguraComposta`

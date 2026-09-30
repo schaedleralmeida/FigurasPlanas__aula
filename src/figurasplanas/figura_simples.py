@@ -60,4 +60,12 @@ class TrianguloRetangulo(FiguraPlana):
         yc = h / 3
         Ixy = 0.0
         super().__init__(A, Ix, Iy, xc, yc, Ixy)
+
+    def __repr__(self) -> str:
+        return f"TrianguloRetangulo(b={self.b}, h={self.h})"
+
+    def __str__(self) -> str:
+        txt = f"Triângulo Retângulo: b= {self.b}, h= {self.h} \n"
+        txt += super().__str__()
+        return txt
         

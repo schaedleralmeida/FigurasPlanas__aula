@@ -45,7 +45,7 @@ class Circulo(FiguraPlana):
     def __init__(self, r:float) -> None:
 
         self.r = r
-        A = pi * r**2
+        A = pi * r**2           # Area do circulo
         Ix = (pi * r**4) / 4
         Iy = (pi * r**4) / 4
         xc = 0.0
@@ -61,3 +61,4 @@ class Circulo(FiguraPlana):
         txt = f"Círculo: r= {self.r}\n"
         txt += super().__str__()
         return txt
+
